@@ -49,9 +49,11 @@ The app requires **R (version ≥ 4.0)** and the following packages:
 
 These can be installed in R using:
 
+```r
 install.packages(c("shiny", "DT", "ggplot2", "dplyr", 
                    "pheatmap", "reshape2", "ggbeeswarm", 
                    "gridExtra", "viridis"))
+```
 
 ---
 
@@ -59,12 +61,16 @@ install.packages(c("shiny", "DT", "ggplot2", "dplyr",
 ## ▶️ Usage
 
 1. First clone this reporsitory by running the following in your terminal:
-    git clone https://github.com/Saneeya1402/RNAseq-ShinyApp.git
+   ```r
+   git clone https://github.com/Saneeya1402/RNAseq-ShinyApp.git
     cd RNAseq-ShinyApp
-2. Then open R and run the app like:
+   ```
+3. Then open R and run the app like:
+   ```r
    library(shiny)
    runApp("app.R")
-3. Using the app's inerface, upload the following documents in their respective tabs:
+   ```
+5. Using the app's inerface, upload the following documents in their respective tabs:
 - Metadata file (.csv)
 - Normalized counts matrix (.csv)
 - DESeq2 results (.csv)
@@ -76,13 +82,14 @@ install.packages(c("shiny", "DT", "ggplot2", "dplyr",
 
 ## 📁 Repository Structure
 
+```r
 RNAseq-ShinyApp/
 │
 ├── app.R              # Main Shiny application
 ├── data/              # (Optional) Example input data
 ├── www/               # (Optional) Assets (CSS/JS/images)
 └── README.md          # Project documentation
-
+```
 
 ---
 
