@@ -103,3 +103,5 @@ RNAseq-ShinyApp/
 - Volcano plots and DEG summaries
 - FGSEA top pathway barplots and scatterplots
 
+
+### *The emojis' are not from ChatGPT, I just like them! Thank you for reading!
